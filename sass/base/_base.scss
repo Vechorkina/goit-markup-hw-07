@@ -1,0 +1,49 @@
+
+body {
+    background-color: $title-dark-theme-color;
+    font-family: $main-font;
+    font-size: 16px;
+    color: $title-light-theme-color;
+    /* display: block; */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+/***убирается подчеркивание ссылок***/
+.link {
+    text-decoration: none;
+    display: block;
+    outline: none;
+}
+
+/***убираются точки в списке***/
+.list {
+    list-style: none;
+}
+
+
+
+h1, h2, h3 {
+    margin: 0px;
+}
+
+img {
+    display: block;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+}
