@@ -1,4 +1,343 @@
 @charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+/**
+   * Remove the margin in all browsers.
+   */
+body {
+  margin: 0;
+}
+
+/**
+   * Render the `main` element consistently in IE.
+   */
+main {
+  display: block;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+/**
+   * Add the correct display in IE 10+.
+   */
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+[hidden] {
+  display: none;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
@@ -46,13 +385,18 @@ p {
   margin: 0px;
 }
 
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 1px solid #e67399; */
 }
 
 /*********************** МОДАЛЬНОЕ ОКНО ********************/
@@ -85,14 +429,7 @@ p {
   padding-left: 40px;
 }
 
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-/*//// Оставьте свои данные, мы вам перезвоним ////*/
-.modal-form-title {
+.modal-form .modal-form-title {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 20px;
@@ -103,9 +440,116 @@ p {
   margin-bottom: 30px;
 }
 
-/* ************************* */
-.modal-form-input {
+.modal-form .modal-close-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  fill: #000000;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form .modal-close-btn .modal-button-icon-close {
+  background-size: contain;
+}
+
+.modal-form .modalform-input-wrapper {
+  position: relative;
+  margin-bottom: 28px;
+}
+
+.modal-form .modalform-input-wrapper .modal-form-input {
   height: 40px;
+}
+
+.modal-form .modalform-input-wrapper .modal-form-label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: #757575;
+  padding-left: 42px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form .modalform-input-wrapper .modal-button-icon {
+  position: absolute;
+  top: 14px;
+  left: 19px;
+  fill: #212121;
+}
+
+.modal-form .modal-form-message-div {
+  position: relative;
+}
+
+.modal-form .modal-form-message-div .modal-form-message {
+  margin-bottom: 20px;
+  width: 448px;
+  height: 120px;
+  resize: none;
+  padding-left: 16px;
+  padding-top: 12px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form .modal-form-message-div .modal-form-option-label {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+  /* display: flex;
+            align-items: center; */
+  margin-bottom: 30px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 12px;
+  left: 16px;
+}
+
+.modal-form .modal-form-checkbox-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.modal-form .modal-form-button {
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  /* outline: none; */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196F3;
+  margin-left: auto;
+  margin-right: auto;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form .modal-form-buttonhover, .modal-form .modal-form-buttonfocus {
+  background-color: #2196F3;
 }
 
 .modal-form-input,
@@ -124,52 +568,15 @@ p {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-message-div {
-  position: relative;
-}
-
-.modal-form-message {
-  margin-bottom: 20px;
-  width: 448px;
-  height: 120px;
-  resize: none;
-  padding-left: 16px;
-  padding-top: 12px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/*..................... КНОПКА "ЗАКРЫТЬ" ................................*/
-.modal-close-btn {
-  position: absolute;
-  top: 8px;
-  right: 8px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: #FFFFFF;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  justify-content: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  fill: #000000;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .modal-close-btn:hover .modal-button-icon-close,
 .modal-close-btn:focus .modal-button-icon-close {
   fill: #2196F3;
-}
-
-.modal-button-icon-close {
-  background-size: contain;
-}
-
-/* *********************************************************************** */
-.modalform-input-wrapper {
-  position: relative;
-  margin-bottom: 28px;
 }
 
 .modalform-input-wrapper:hover,
@@ -194,20 +601,6 @@ p {
 
 .modal-form-message:focus::placeholder {
   color: #2196F3;
-}
-
-.modal-form-label {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.01em;
-  color: #757575;
-  padding-left: 42px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-input:hover + .modal-form-label,
@@ -239,36 +632,7 @@ p {
   fill: #2196F3;
 }
 
-.modal-form-option-label {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: #757575;
-  /* display: flex;
-    align-items: center; */
-  margin-bottom: 30px;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  position: absolute;
-  top: 12px;
-  left: 16px;
-}
-
-.modal-button-icon {
-  position: absolute;
-  top: 14px;
-  left: 19px;
-  fill: #212121;
-}
-
 /* **************************Чекбокс****************************** */
-.modal-form-checkbox-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
 .modal-form-checkbox-div label {
   font-size: 14px;
   line-height: 1.71;
@@ -315,45 +679,10 @@ p {
   background-color: #2196F3;
   border-color: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  fill: var(#ffffff);
+  fill: #ffffff;
 }
 
-/* *********************  Кнопка "ОТПРАВИТЬ"****************** */
-.modal-form-button {
-  width: 200px;
-  height: 50px;
-  align-items: center;
-  border-radius: 4px;
-  cursor: pointer;
-  border: none;
-  /* outline: none; */
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  text-align: center;
-  letter-spacing: 0.06em;
-  color: #ffffff;
-  background-color: #2196F3;
-  margin-left: auto;
-  margin-right: auto;
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-button:hover,
-.modal-form-button:focus {
-  background-color: #2196F3;
-}
-
-/* ------------*************************-------------- */
 /* ШАПКА САЙТА */
-.nav-menu {
-  display: flex;
-}
-
-.nav-list-item:not(:last-child) {
-  margin-right: 50px;
-}
-
 .header .container {
   display: flex;
   align-items: center;
@@ -361,26 +690,32 @@ p {
   width: 1200px;
 }
 
-.navigation {
+.header .navigation {
   display: flex;
   align-items: center;
 }
 
-.logo {
+.header .navigation .logo {
   margin-right: 85px;
 }
 
-.header-address {
+.header .navigation .nav-menu {
+  display: flex;
+}
+
+.header .header-address {
   display: flex;
   align-items: center;
-  /* margin-left: auto; */
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-address-link-site:not(:last-child) {
   margin-right: 30px;
 }
 
-/*******************Стиль навигации*****************************/
 .nav-list-link,
 .header-address-link {
   display: flex;
@@ -395,6 +730,7 @@ p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/*******************Стиль навигации*****************************/
 .active-page {
   color: #2196F3;
 }
@@ -414,17 +750,17 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-address-link .header-address-icon {
+  margin-right: 10px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .nav-list-link:hover,
 .nav-list-link:focus,
 .header-address-link:hover,
 .header-address-link:focus {
   color: #2196F3;
   fill: #2196F3;
-}
-
-.header-address-icon {
-  margin-right: 10px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .heading {
@@ -438,7 +774,7 @@ p {
   background-size: cover;
 }
 
-.heading-title {
+.heading .heading-title {
   margin: 0;
   font-weight: 900;
   font-size: 44px;
@@ -451,7 +787,7 @@ p {
   padding-top: 200px;
 }
 
-.btn {
+.heading .btn {
   display: flex;
   align-items: center;
   /* background-color: #F5F4FA; */
@@ -480,11 +816,6 @@ p {
   background-color: #2196F3;
 }
 
-.text-button:hover,
-.text-button:focus {
-  color: #ffffff;
-}
-
 /*Преимущества*/
 /********************* О НАС**********************/
 .about-us {
@@ -492,14 +823,13 @@ p {
   padding-bottom: 94px;
 }
 
-.about-us-list {
+.about-us .about-us-list {
   display: flex;
   justify-content: center;
 }
 
-.about-us-svg {
-  width: 70px;
-  height: 70px;
+.about-us-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .about-us-div {
@@ -513,8 +843,9 @@ p {
   align-items: center;
 }
 
-.about-us-list-item:not(:last-child) {
-  margin-right: 30px;
+.about-us-div .about-us-svg {
+  width: 70px;
+  height: 70px;
 }
 
 .advantages-heading {
@@ -539,23 +870,23 @@ p {
   width: 270px;
 }
 
-.about-us-link {
-  background: #F5F4FA;
-  border-radius: 4px;
-  padding: 25px 100px;
+.team,
+.clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 50px;
 }
 
 /*********************Чем мы занимаемся********************/
-.services-list {
-  display: flex;
-  position: relative;
+.services-container {
+  padding-bottom: 94px;
 }
 
-.servises-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.services {
+.services-container .services {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -563,6 +894,15 @@ p {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
+}
+
+.services-container .services-list {
+  display: flex;
+  position: relative;
+}
+
+.services-container .servises-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .services-list-description {
@@ -582,16 +922,23 @@ p {
   position: absolute;
 }
 
-.services-container {
-  padding-bottom: 94px;
-}
-
-.team-container {
-  display: flex;
+.button-icon {
+  width: 20px;
+  height: 20px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nasha-komanda {
   background-color: #F5F4FA;
+}
+
+.nasha-komanda .staff-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.nasha-komanda .team-container {
+  display: flex;
 }
 
 .team-items {
@@ -601,23 +948,11 @@ p {
   padding-bottom: 21px;
 }
 
-.staff-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.team-items .team-foto {
+  padding-bottom: 30px;
 }
 
-.team,
-.clients {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  padding-bottom: 50px;
-}
-
-.team-staff-name {
+.team-items .team-staff-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -627,32 +962,18 @@ p {
   padding-bottom: 10px;
 }
 
-.team-staff {
+.team-items .team-staff {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  padding-bottom: 16px;
-}
-
-.team-staff {
-  font-weight: normal;
   color: #757575;
-}
-
-.clients-link:hover,
-.clients-link:focus {
-  color: #2196F3;
+  padding-bottom: 16px;
 }
 
 .team-items:not(:last-child) {
   margin-right: 30px;
-}
-
-.team-foto {
-  padding-bottom: 30px;
 }
 
 .social-links {
@@ -660,7 +981,7 @@ p {
   justify-content: center;
 }
 
-.social-links-indent:not(:last-child) {
+.social-links:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -680,14 +1001,7 @@ p {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-icon {
-  width: 20px;
-  height: 20px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-link-icon:hover,
-.social-link-icon:focus {
+.social-link-icon:hover, .social-link-icon:focus {
   fill: #ffffff;
   background-color: #2196F3;
 }
@@ -700,17 +1014,19 @@ p {
   padding-bottom: 94px;
 }
 
-.regular-clients {
+.clients-container .clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-bottom: 50px;
+}
+
+.clients-container .regular-clients {
   display: flex;
   justify-content: space-evenly;
-}
-
-.regular-clients-title:not(:last-child) {
-  margin-right: 30px;
-}
-
-.clients-link-svg {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link {
@@ -726,27 +1042,49 @@ p {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-link .clients-link-svg {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover, .clients-link:focus {
   fill: #2196F3;
   border: 1px solid #2196F3;
 }
 
+.regular-clients-title:not(:last-child) {
+  margin-right: 30px;
+}
+
 /*************************Контакты-footer***************************/
 .footer {
-  /* display: block; */
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
   align-items: baseline;
 }
 
-.footer-container {
+.footer .footer-container {
   display: flex;
 }
 
-.logo-color-blue,
-.logo-color {
+.footer .footer-container .footer-center {
+  padding-top: 12px;
+  padding-right: 94px;
+}
+
+.footer .footer-container .footer-right {
+  margin-top: 12px;
+  width: 570px;
+  height: 86px;
+  margin-left: auto;
+}
+
+.footer-left .logo-footer {
+  padding-bottom: 20px;
+}
+
+.footer-left .logo-footer .logo-color-blue,
+.footer-left .logo-footer .logo-color {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -756,12 +1094,14 @@ p {
   color: #2196F3;
 }
 
-.logo-footer {
-  padding-bottom: 20px;
+.footer-left .logo-footer .logo-color {
+  color: #ffffff;
 }
 
-.logo-color {
-  color: #ffffff;
+.footer-left .address-list {
+  margin-right: 69px;
+  width: 231px;
+  height: 81px;
 }
 
 .footer-address,
@@ -788,13 +1128,7 @@ p {
   color: #ffffff;
 }
 
-.address-list {
-  margin-right: 69px;
-  width: 231px;
-  height: 81px;
-}
-
-/****************присоединяйтесь, блок по центру***********************/
+/*присоединяйтесь, блок по центру*/
 .subscription {
   font-weight: 700;
   font-size: 14px;
@@ -804,22 +1138,16 @@ p {
   color: #ffffff;
 }
 
-.footer-center {
-  padding-top: 12px;
-  padding-right: 94px;
-}
-
 .social-links-footer {
   padding-top: 20px;
   display: flex;
   justify-content: center;
 }
 
-.social-links-indent:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-link-icon-footer {
+.social-links-footer .social-link-icon-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -828,11 +1156,12 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   fill: #ffffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-links-indent:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-link-icon-footer:hover,
@@ -842,13 +1171,6 @@ p {
 }
 
 /************************* Блок справа ************************/
-.footer-right {
-  margin-top: 12px;
-  width: 570px;
-  height: 86px;
-  margin-left: auto;
-}
-
 .footer-right-title {
   box-sizing: inherit;
   font-weight: 700;
@@ -859,16 +1181,11 @@ p {
   color: #ffffff;
 }
 
-.contact-form {
-  margin-top: 20px;
-  background: #2F303A;
-}
-
 .contact-form-footer {
   display: flex;
 }
 
-.contact-form-email {
+.contact-form-footer .contact-form-email {
   font-family: "Roboto", sans-serif;
   width: 358px;
   height: 50px;
@@ -888,11 +1205,16 @@ p {
   background-color: transparent;
 }
 
-.contact-form:not(:last-child) {
+.contact-form-footer .contact-form {
+  margin-top: 20px;
+  background: #2F303A;
+}
+
+.contact-form-footer .contact-form:not(:last-child) {
   margin-right: 12px;
 }
 
-.btn-form {
+.contact-form-footer .btn-form {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -916,36 +1238,27 @@ p {
   border-radius: 4px;
 }
 
-.btn-form:hover,
-.btn-form:focus {
-  background-color: #2196F3;
-}
-
-.button-icon-send {
+.contact-form-footer .btn-form .button-icon-send {
   margin-left: 10px;
   width: 24px;
   height: 24px;
 }
 
+.contact-form-footer .btn-form:hover, .contact-form-footer .btn-form:focus {
+  background-color: #2196F3;
+}
+
 /***************П О Р Т Ф О Л И О***********************/
-.filter {
+.line {
+  border-top: 1px solid #ECECEC;
+}
+
+.line .filter {
   display: flex;
   padding-top: 93px;
   padding-bottom: 34px;
   justify-content: center;
   box-sizing: inherit;
-}
-
-.line {
-  border-top: 1px solid #ECECEC;
-}
-
-.filter-list-item:hover,
-.filter-list-item:focus {
-  background-color: #2196F3;
-  color: #ffffff;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
 }
 
 .filter-list-item {
@@ -967,6 +1280,13 @@ p {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.filter-list-item:hover, .filter-list-item:focus {
+  background-color: #2196F3;
+  color: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
 .filter-list:not(:last-child) {
   margin-right: 8px;
 }
@@ -979,18 +1299,37 @@ p {
 }
 
 /***************** ПРОЕКТЫ  *************************/
-img {
-  max-width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .portfolio {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 94px;
   box-sizing: inherit;
+}
+
+.portfolio .portfolio-img {
+  width: calc((100% - 60px) / 3);
+  justify-content: center;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  display: block;
+  outline: none;
+}
+
+.portfolio .portfolio-img:not(:nth-last-child(3n + 1)) {
+  margin-right: 30px;
+}
+
+.portfolio .portfolio-img:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+
+.portfolio .portfolio-imghover, .portfolio .portfolio-img:focus {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+  outline: none;
 }
 
 .projects {
@@ -1019,7 +1358,7 @@ img {
   overflow: hidden;
 }
 
-.our-projects-description {
+.overlay .our-projects-description {
   position: absolute;
   top: 0;
   left: 0;
@@ -1044,31 +1383,5 @@ img {
 .portfolio-img:hover .our-projects-description {
   background-color: rgba(33, 150, 243, 0.9);
   transform: translateY(0%);
-}
-
-.portfolio-img {
-  width: calc((100% - 60px) / 3);
-  justify-content: center;
-  box-sizing: border-box;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
-  display: block;
-  outline: none;
-}
-
-.portfolio-img:not(:nth-last-child(3n + 1)) {
-  margin-right: 30px;
-}
-
-.portfolio-img:not(:nth-last-child(-n + 3)) {
-  margin-bottom: 30px;
-}
-
-.portfolio-img:hover,
-.portfolio-img:focus {
-  background: #FFFFFF;
-  box-sizing: border-box;
-  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
-  outline: none;
 }
 /*# sourceMappingURL=main.css.map */

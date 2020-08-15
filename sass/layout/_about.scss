@@ -3,16 +3,16 @@
 .about-us {
     padding-top: 94px;
     padding-bottom: 94px;
+    
+    .about-us-list {
+        display: flex;
+        justify-content: center; 
+    }
 }
 
-.about-us-list {
-    display: flex;
-    justify-content: center;
-}
-.about-us-svg {
-    width: 70px;
-    height: 70px;
-}
+.about-us-list-item:not(:last-child) {
+        margin-right: 30px;
+    }
 
 .about-us-div{
     margin-bottom: 30px;
@@ -23,10 +23,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    .about-us-svg {
+        width: 70px;
+        height: 70px;
+    }
 }
-.about-us-list-item:not(:last-child) {
-    margin-right: 30px;
-}
+
 
 .advantages-heading {
     font-weight: 700;
@@ -51,8 +53,4 @@
     width: 270px;
 }
 
-.about-us-link{
-    background: #F5F4FA;
-    border-radius: 4px;
-    padding: 25px 100px;
-}
+

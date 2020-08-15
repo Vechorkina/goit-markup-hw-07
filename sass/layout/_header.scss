@@ -1,44 +1,35 @@
 
 /* ШАПКА САЙТА */
-.nav-menu {
-    display: flex;
+.header {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 1200px;
+    }
+    .navigation {
+        display: flex;
+        align-items: center;
+            .logo {
+                margin-right: 85px;
+            }
+            .nav-menu {
+                display: flex;
+            }
+    }
+    .header-address {
+        display: flex;
+        align-items: center;   
+    }
 }
 
 .nav-list-item:not(:last-child) {
     margin-right: 50px;
 }
 
-
-
-.header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 1200px;
-}
-
-.navigation {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    margin-right: 85px;
-}
-
-.header-address {
-    display: flex;
-    align-items: center;   
-    /* margin-left: auto; */
-}
-
 .header-address-link-site:not(:last-child) {
     margin-right: 30px;
 }
-
-
-
-/*******************Стиль навигации*****************************/
 
 .nav-list-link,
 .header-address-link {
@@ -54,6 +45,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/*******************Стиль навигации*****************************/
 .active-page {
     color: $accent-color;
 }
@@ -71,6 +63,11 @@
     color: $text-light-theme-color; 
     fill: $text-light-theme-color;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .header-address-icon {
+        margin-right: 10px; 
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .nav-list-link:hover,
@@ -79,9 +76,4 @@
 .header-address-link:focus  {
     color: $accent-color;
     fill: $accent-color;
-}
-
-.header-address-icon {
-    margin-right: 10px; 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
